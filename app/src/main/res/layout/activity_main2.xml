@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context="com.example.nabilperhitunganpersegipanjang.activity_main2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="HASIL PERHITUNGAN PERSEGI PANJANG"
+        android:textColor="#6750A3"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:text="OUTPUT PANJANG"
+        android:textColor="#6750A3"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:minHeight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvpanjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="panjang"
+        android:minHeight="48dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:text="OUTPUT LEBAR"
+        android:textColor="#6750A3"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:minHeight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="lebar"
+        android:minHeight="48dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:text="OUTPUT LUAS"
+        android:textColor="#6750A3"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:minHeight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvLuas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Luas"
+        android:minHeight="48dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:text="OUTPUT KELILING"
+        android:textColor="#6750A3"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:minHeight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvKeliling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Keliling"
+        android:minHeight="48dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#6750A3"
+        android:textSize="10dp"
+        android:text="@M.NABIL DAWAMI 12250111527" />
+</LinearLayout>
